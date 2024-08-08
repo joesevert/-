@@ -1,1 +1,0 @@
-import{a8 as a}from"./index-BpwBiS7b.js";import{m as e}from"./index-Blfq4WOz.js";function i(){return e.get({url:"/city/all"})}const l=a("city",{state:()=>({allCity:{},currentCity:{cityName:"广州"}}),actions:{async fetchAllCitiesData(){const t=await i();this.allCity=t.data}}});export{l as u};
