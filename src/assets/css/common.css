@@ -1,0 +1,18 @@
+/* 设置根样式 */
+:root { 
+  --primary-color: #ff9854;
+  --van-primary-color: var(--primary-color);
+  --van-danger-color:var(--primary-color)
+}
+
+body {
+  font-size: 14px;
+}
+
+input {
+  border: none;
+}
+
+h2 {
+  margin: 0;
+}
