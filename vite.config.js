@@ -21,7 +21,9 @@ export default defineConfig({
   resolve: {
     //extensions: [".js", ".jsx", ".ejs", '.mjs','.json','vue'],
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
+      // find: 'src',
+      // replacement: path.resolve(__dirname, './src'),
     }
   }
 })
